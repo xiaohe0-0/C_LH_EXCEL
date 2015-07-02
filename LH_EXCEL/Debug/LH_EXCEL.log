@@ -1,0 +1,127 @@
+﻿Build started 2014/3/21 14:46:05.
+     1>Project "F:\My Programs\C\LH_EXCEL\LH_EXCEL\LH_EXCEL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LH_EXCEL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt button.cpp data.cpp excel.cpp sort.cpp table.cpp
+         table.cpp
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(116): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(119): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(130): warning C4244: '+=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(95): warning C4101: 'NumberOfCharsWritten' : unreferenced local variable
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(254): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(255): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(280): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(281): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(304): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(305): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(463): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(464): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(512): warning C4244: 'initializing' : conversion from 'LONG' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(512): warning C4244: 'initializing' : conversion from 'LONG' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(569): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(570): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(600): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\my programs\c\lh_excel\lh_excel\table.cpp(580): warning C4101: 'tmp' : unreferenced local variable
+         sort.cpp
+         excel.cpp
+         data.cpp
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(33): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(34): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(42): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(63): warning C4244: 'initializing' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(63): warning C4244: 'initializing' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(70): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(89): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(91): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\data.cpp(82): warning C4101: 'wd' : unreferenced local variable
+         button.cpp
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(136): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(137): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(139): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(161): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(182): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(222): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(242): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(243): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(244): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(255): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(256): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(274): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(275): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(280): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(301): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(302): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(310): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(341): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(356): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(396): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(397): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(420): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(438): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(441): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(442): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(444): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(473): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(493): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(496): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(497): warning C4244: '=' : conversion from 'double' to 'SHORT', possible loss of data
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(499): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(517): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\my programs\c\lh_excel\lh_excel\button.cpp(541): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LH_EXCEL.exe.embed.manifest.res" Debug\LH_EXCEL_manifest.rc 
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\My Programs\C\LH_EXCEL\Debug\LH_EXCEL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LH_EXCEL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\My Programs\C\LH_EXCEL\Debug\LH_EXCEL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\My Programs\C\LH_EXCEL\Debug\LH_EXCEL.lib" /MACHINE:X86 Debug\LH_EXCEL.exe.embed.manifest.res
+         Debug\button.obj
+         Debug\data.obj
+         Debug\excel.obj
+         Debug\sort.obj
+         Debug\table.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\LH_EXCEL.exe.embed.manifest" /manifest Debug\LH_EXCEL.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         LH_EXCEL.vcxproj -> F:\My Programs\C\LH_EXCEL\Debug\LH_EXCEL.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\LH_EXCEL.unsuccessfulbuild".
+         Touching "Debug\LH_EXCEL.lastbuildstate".
+     1>Done Building Project "F:\My Programs\C\LH_EXCEL\LH_EXCEL\LH_EXCEL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.49
